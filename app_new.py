@@ -87,7 +87,7 @@ with st.container():
         st.caption(f"Sentiment: {entry['sentiment']}, Urgency: {entry['urgency']}, Complexity: {entry['complexity']}, Tone: {entry['tone']}")
 
 # Always provide a fresh empty input box each rerun
-user_msg = st.text_area("Next Customer Message:", value="", placeholder="Enter your next message here...", height=100, key=f"input_{len(st.session_state.history)}")
+user_msg = st.text_area("Customer Message:", value="", placeholder="Enter your message here...", height=100, key=f"input_{len(st.session_state.history)}")
 
 if st.button("Send") and user_msg.strip():
     sentiment = round(TextBlob(user_msg).sentiment.polarity, 3)
