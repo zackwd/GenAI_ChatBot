@@ -89,7 +89,7 @@ with st.container():
 # Always provide a fresh empty input box each rerun
 user_msg = st.text_area("Next Customer Message:", value="", placeholder="Enter your next message here...", height=100, key=f"input_{len(st.session_state.history)}")
 
-if st.button("Send Next") and user_msg.strip():
+if st.button("Send") and user_msg.strip():
     sentiment = round(TextBlob(user_msg).sentiment.polarity, 3)
     urgency = detect_urgency(user_msg)
     complexity = detect_complexity(user_msg)
