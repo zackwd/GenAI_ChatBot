@@ -73,7 +73,7 @@ def create_prompt(user_msg, sentiment, urgency, complexity, tone):
         f"Respond concisely (1-2 sentences) to the following customer message: {user_msg}"
     )
 
-st.title("🤖 GenAI Customer Service ChatBot (GPT-4o)")
+st.title("🤖 GenAI Customer Service ChatBot")
 
 # Initialize chat history cleanly
 if "history" not in st.session_state:
@@ -115,4 +115,4 @@ if st.button("Send") and user_msg.strip():
         st.error(f"Error generating response: {e}")
 
 st.markdown("---")
-st.markdown("*GenAI Customer Service ChatBot - Now upgraded with GPT-4o for stable, efficient, clean, scrollable multi-turn structured conversation with input cleared reliably each turn.*")
+st.markdown("*GenAI Customer Service ChatBot - Powered by GPT-4o for fast, clear, multi-turn customer support using advanced OpenAI language models.*")
