@@ -4,7 +4,7 @@ A domain-specific, GPT-4-powered customer service assistant built for real-time 
 
 ## Overview
 
-This project implements a Generative AI ChatBot that simulates a customer service agent using structured prompt engineering, sentiment analysis, and metadata-driven response control. It handles FAQ queries, troubleshooting, escalation detection, and urgent response escalation — all via a natural, conversational interface.
+This project implements a Generative AI ChatBot that simulates a customer service agent using structured prompt engineering, sentiment analysis, and metadata-driven response control. It handles FAQ queries, troubleshooting, escalation detection, and urgent response escalation  all via a natural, conversational interface.
 
 ## Key Features
 
@@ -15,7 +15,7 @@ This project implements a Generative AI ChatBot that simulates a customer servic
 - **Streamlit Interface**: Interactive front-end for real-time demo and testing.
 - **Human-in-the-Loop Support**: Routes complex or flagged queries to human agents when needed.
 
-## 📚 Datasets
+## Datasets
 
 - [Customer Support on Twitter](https://www.kaggle.com/datasets/thoughtvector/customer-support-on-twitter)
 - [Customer Service Chat Data - 30K Rows](https://www.kaggle.com/datasets/aimack/customer-service-chat-data-30k-rows)
@@ -48,7 +48,7 @@ Both datasets were cleaned, tokenized, and used to extract intents, design promp
 
 ## Demo
 
-👉 [Click here to try it live (Streamlit App)](https://genaichatbot-m9fqf6d8fifzczmnbgo5vr.streamlit.app/)  
+ [Click here to try it live (Streamlit App)](https://genaichatbot-m9fqf6d8fifzczmnbgo5vr.streamlit.app/)  
 *
 
 
